@@ -5,6 +5,8 @@
 2. Run `npm start`
 3. Vist `http://localhost:5000` in your browser
 
+### Create a folder called `components` in src
+
 ### Create a user component
 1. Create a component with the name `user`.
 2. This component must export **TWO** functions: `getName` and `getSurname`
