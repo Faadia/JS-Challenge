@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Boiler</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style type="text/css">
+    * {
+      font-family: Calibri, sans-serif;
+    }
+    .fieldset {
+      margin: .5em 0;
+    }
+    .label {
+      margin: .5em 0;
+      font-weight: bold;
+    }
+    #fullname {
+      color: cornflowerblue;
+    }
+  </style>
+</head>
+<body>
+<form id="form">
+  <div class="fieldset">
+    <div class="label">Name</div>
+    <input type="text" name="name" id="name">
+  </div>
+  <div class="fieldset">
+    <div class="label">Surname</div>
+    <input type="text" name="surname" id="surname">
+  </div>
+  <div class="fieldset">
+    <input type="submit" value="Save" />
+  </div>
+  <div class="fieldset">
+    <b>Full Name:</b> <span id="fullname"><i>Please provide a name and surname</i></span>
+  </div>
+</form>
+  <script src="dist/bundle.js"></script>
+</body>
+</html>
